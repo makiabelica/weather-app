@@ -50,7 +50,14 @@ android {
 }
 
 dependencies {
-
+    //RETROFIT: Para hacer fetch
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
+    //Para pasarlo a formato JSON
+    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+    //Lifecycle viewmodel
+    implementation("androidx.lifecycle:lifecycle-viewmodel-android:2.8.4")
+    //Uso de Jetpack Compose
+    implementation("androidx.navigation:navigation-compose:2.7.7")
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
