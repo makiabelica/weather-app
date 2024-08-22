@@ -53,7 +53,7 @@ dependencies {
     //RETROFIT: Para hacer fetch
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
     //Para pasarlo a formato JSON
-    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+    implementation("com.squareup.retrofit2:converter-gson:2.11.0")
     //Lifecycle viewmodel
     implementation("androidx.lifecycle:lifecycle-viewmodel-android:2.8.4")
     //Uso de Jetpack Compose
