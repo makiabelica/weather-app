@@ -9,7 +9,7 @@ import java.lang.Exception
 
 class WeatherViewModelL: ViewModel() {
     private  val _weatherData = MutableStateFlow<WeatherResponse?>(null)
-    //current state update withh instance
+    //current state update with instance
     val weatherData: StateFlow<WeatherResponse?> = _weatherData
     //create a function for instance
     private val weatherApi = WeatherAPI.create()

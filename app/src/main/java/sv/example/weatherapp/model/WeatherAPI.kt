@@ -15,7 +15,7 @@ interface WeatherAPI {
     ) : WeatherResponse
 
     companion object{
-        private const val BASE_URL = "ttps://api.openweathermap.org/data/2.5/"
+        private const val BASE_URL = "https://api.openweathermap.org/data/2.5/"
 
         fun create() : WeatherAPI{
             val retrofit = Retrofit.Builder()

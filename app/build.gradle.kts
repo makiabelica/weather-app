@@ -59,7 +59,7 @@ dependencies {
     //Uso de Jetpack Compose
     implementation("androidx.navigation:navigation-compose:2.7.7")
     //material you
-    implementation("androidx.compose.material3:material3-android:1.2.1")
+    //implementation("androidx.compose.material3:material3-android:1.2.1")
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
