@@ -11,6 +11,9 @@ class WeatherViewModelL: ViewModel() {
     private  val _weatherData = MutableStateFlow<WeatherResponse?>(null)
     //current state update with instance
     val weatherData: StateFlow<WeatherResponse?> = _weatherData
+    //Para manejar errores
+    private val _errorMessage = MutableStateFlow<String?>(null)
+    val errorMessage: StateFlow<String?> = _errorMessage
     //create a function for instance
     private val weatherApi = WeatherAPI.create()
 
@@ -18,10 +21,16 @@ class WeatherViewModelL: ViewModel() {
         viewModelScope.launch {
             try {
                 val response = weatherApi.getWeather(city, apikey)
-                _weatherData.value = response
+
+                if (response != null) {
+                    _weatherData.value = response
+                    _errorMessage.value = null
+                } else {
+                    _errorMessage.value = "Ciudad no encontrada."
+                }
             }catch (e: Exception){
                 e.printStackTrace()
-
+                _errorMessage.value = "Error al obtener los datos."
             }
         }
     }
