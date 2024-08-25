@@ -3,25 +3,33 @@ API Doc: https://openweathermap.org/
 
 ---
 
-### ¿cómo ejecutar proyecto?
+### ¿Cómo ejecutar proyecto?
 
 1. **Actualizar SDK**
    Una vez abierto el proyecto en android studio, debe de seleccionar el icono de configuración ⚙️ y seleccionar "Administrador de SDK" o "SDK Mananger"
-   ![sdk](https://ufgedu-my.sharepoint.com/:i:/g/personal/ia_angieespinoza_ufg_edu_sv/ERzfH3iJZQ9MmX-yp5DjSGUBZDaSo4P2sBOoND8Pf0SPXg?e=eOlLzW)
-2. Se abrirá una ventana que mostrara distintos SDK
-3. Seleccionar los siguientes SDK:
+   
+   ![image](https://github.com/user-attachments/assets/4e0abab4-14f5-4b7e-8fdb-2b4a1e2c44ca)
+
+   
+3. Se abrirá una ventana que mostrara distintos SDK
+4. Seleccionar los siguientes SDK:
 
 - Android 14.0 ("UpsideDownCake API LEVEL 34")
 - Android 14.0 ("UpsideDownCake API LEVEL 34-ext8")
 
 **Nota: Si ya se tiene el SDK instalado, omitir el paso**
 Una vez seleccionado, darle clic al botón de "aplicar" y "ok"
-![sdk todos]((https://ufgedu-my.sharepoint.com/:i:/g/personal/ia_angieespinoza_ufg_edu_sv/EarAwLQGZ4BLk9Eqb3XsbegBaP7klwvatzkCQcfqvj_fCA?e=Hc7ugk))
+
+![image-1](https://github.com/user-attachments/assets/ad11e499-d921-4aab-b3a8-c9117137747e)
+
+
 4. Esperar que se instale el SDK
 **⚠️ Sino corre el proyecto o no es el sdk, darle clic a todos los `UpsideDownCake`**
 
 5. Una vez instalado, correr el proyecto en el icono de play en verde ▶️
-![alt text]((https://ufgedu-my.sharepoint.com/:i:/g/personal/ia_angieespinoza_ufg_edu_sv/EZDnghCzIGVPqw2kwjkxFbgBTHrXadd7cVKHQGpc1WI1xA?e=UWbcju))
+
+
+![image-2](https://github.com/user-attachments/assets/1a19ae08-0260-41d5-9cf1-7c2f2908d5e7)
 
 
 ### Dependencias utilizadas
