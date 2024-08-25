@@ -11,7 +11,7 @@ interface WeatherAPI {
     suspend fun getWeather(
         @Query("q") city: String,
         @Query("appid") apiKey: String ,
-        @Query("units") units: String = "metric"
+        @Query("lang") units: String = "es"
     ) : WeatherResponse
 
     companion object{
